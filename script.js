@@ -7,8 +7,8 @@ button.addEventListener("click", function () {
 });
 
 const members = [
-  { name: "Ulises", photo: "images/ulises.jpeg", desc: "holaaaa" },
-  { name: "Milo",   photo: "images/milo.jpeg",   desc: "adioooss" }
+  { name: "Ulises Andrade", photo: "images/ulises.jpeg", desc: "Hola, soy Ulises, me apasiona el desarrollo de software tanto tanto Frontend como Backend. Me gusta aprender cosas nuevas y realizar proyectos mientras lo hago." },
+  { name: "Emilio Chávez",   photo: "images/milo.jpeg",   desc: "Soy Emilio, entusiasta del front end y amor por los gatos, me interesa aprender y compartir proyectos" }
 ];
 
 let jindex = 0;
