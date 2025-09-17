@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <!-- Vinculamos el CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body onload="getTime()">
+        
+        <h1>¡Bienvenido a mi primera página web!</h1>
+        <p>Esta página está hecha con HTML, CSS y JavaScript.</p>
+        <!-- Botón para probar JavaScript -->
+        <button id="colorButton">Cambiar color de fondo</button>
+        <button id="nextParticipant">Siguiente Participante</button>
+        
+
+        <h1>Integrantes del Equipo:</h1>
+        <div id="member-section">
+            <p id="member-name">Nombre: </p>
+            <img id="alumnoImages" src="images/1.jpg">
+            <p id="member-desc">Alumno 1 - Descripción breve.</p>
+        </div>
+
+        <h1>Reloj</h1>
+        <form name="form_reloj">
+            <input type="text" name="reloj" size="10">
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
