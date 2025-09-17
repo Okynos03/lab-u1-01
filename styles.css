@@ -82,3 +82,11 @@ form[name="form_reloj"] input[name="reloj"] {
   border: none;
   text-align: center;
 }
+
+#photo3d{
+  width: 220px; height: 220px;
+  margin: 12px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+}
